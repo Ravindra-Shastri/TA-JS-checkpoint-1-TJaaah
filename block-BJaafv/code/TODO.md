@@ -11,7 +11,8 @@ function sum(a, b) {
   console.log(a + b);
 }
 ```
-In first `sum` used return is a statement that allow a value back to where it was called. and 
+In first `sum` used return is a statement that allow a value back to where it was called. 
+and 
 In second `sum` used console.log is a function that inspects values for us.
 
 
@@ -62,11 +63,15 @@ function showMessage() {
 }
 
 alert(userName); // Output 1
+
     John
 showMessage(); // Output 2
+
  "Hello, John"
+
 alert(userName); // Output 3
-John
+
+   John
 ```
 
 8. What is a Anonymous Function give example of three functions.
