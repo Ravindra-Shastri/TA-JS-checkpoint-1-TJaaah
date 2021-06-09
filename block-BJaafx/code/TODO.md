@@ -29,7 +29,7 @@ while (i < 3) {
 fuction getEvenSum(max){
   let sum = 0;
 for (let i = 0; i < 10; i++) {
-  if (i % 2 !== 0)
+  if (i % 2 == 0)
   let num = +prompt("Enter a number");
   sum = sum + num;
 }
@@ -43,7 +43,7 @@ getEvenSum()
 function getOddSum(max){
   let sum = 0;
 for (let i = 0; i < 10; i++) {
-  if (i % 2 == 0)
+  if (i % 2 !== 0)
   let num = +prompt("Enter a number");
   sum = sum + num;
 }
